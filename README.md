@@ -1,5 +1,14 @@
 # Higher-Order Functions in JavaScript
 
+## Contents <!-- omit in toc -->
+
+- [Functions Are Values](#functions-are-values)
+- [Generalizing With Higher-Order Functions](#generalizing-with-higher-order-functions)
+- [Passing Functions As Arguments](#passing-functions-as-arguments)
+- [Exercises](#exercises)
+
+## Functions Are Values
+
 JavaScript has [first-class functions][mdn-first-class-function]. This means that functions are a value like any other value: `5`, `'apples'`, `true`, etc. They can be assigned to variables and passed to other functions.
 
 Consider the following snippet:
@@ -20,7 +29,7 @@ We we create a new variable called `copyOfIsPositive` whose *value* is the funct
 
 A *higher-order function* is a function that accepts another function as an argument. Let's see what we can do with this feature.
 
-## Motivation
+## Generalizing With Higher-Order Functions
 
 Here are three functions that take a list of numbers and count how many elements match a particular condition. Notice that the code in each example is almost identical.
 
@@ -92,7 +101,7 @@ function isNotEmpty(string) {
 
 If we replaced `someCondition(item)` with `isNotEmpty(item)` then we'd have a function that counted the number of non-empty strings in an array.
 
-## Functions As Arguments
+## Passing Functions As Arguments
 
 Consider the following, where `isPositive`, `isEven`, and `isPrime` are defined elsewhere:
 
@@ -125,7 +134,7 @@ This allows us to write a single `count` function that works in virtually any co
 
 ## Exercises
 
-1. [count(array, fn)](./exercises/count)
+1. [count](./exercises/count)
 1. [select](./exercises/select)
 1. [reject](./exercises/reject)
 1. [findFirst](./exercises/findFirst)
