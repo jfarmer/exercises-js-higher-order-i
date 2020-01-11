@@ -134,7 +134,7 @@ This allows us to write a single `count` function that works in virtually any co
 
 ## Exercises
 
-1. [count](./exercises/count/count.js)
+1. [count](./exercises/count/count.js) — **Note**: This function is already completed for you, but you should write your own sanity tests.
 1. [select](./exercises/select/select.js)
 1. [reject](./exercises/reject/reject.js)
 1. [findFirst](./exercises/findFirst/findFirst.js)
