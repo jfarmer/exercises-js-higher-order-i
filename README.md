@@ -134,15 +134,15 @@ This allows us to write a single `count` function that works in virtually any co
 
 ## Exercises
 
-1. [count](./exercises/count)
-1. [select](./exercises/select)
-1. [reject](./exercises/reject)
-1. [findFirst](./exercises/findFirst)
-1. [every](./exercises/every)
-1. [some](./exercises/some)
-1. [maxBy](./exercises/maxBy)
-1. [minBy](./exercises/maxBy)
-1. [map](./exercises/map)
+1. [count](./exercises/count/count.js)
+1. [select](./exercises/select/select.js)
+1. [reject](./exercises/reject/reject.js)
+1. [findFirst](./exercises/findFirst/findFirst.js)
+1. [every](./exercises/every/every.js)
+1. [some](./exercises/some/some.js)
+1. [maxBy](./exercises/maxBy/maxBy.js)
+1. [minBy](./exercises/maxBy/maxBy.js)
+1. [map](./exercises/map/map.js)
 
 [mdn-first-class-function]: https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function
 [wiki-higher-order-function]: https://en.wikipedia.org/wiki/Higher-order_function
