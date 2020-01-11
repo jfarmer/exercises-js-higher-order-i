@@ -138,7 +138,6 @@ This allows us to write a single `count` function that works in virtually any co
 1. [select](./exercises/select)
 1. [reject](./exercises/reject)
 1. [findFirst](./exercises/findFirst)
-1. [findAll](./exercises/findFirst)
 1. [every](./exercises/every)
 1. [some](./exercises/some)
 1. [maxBy](./exercises/maxBy)
