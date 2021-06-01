@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "description": "JavaScript exercises for higher-order functions",
   "main": "index.js",
-  "dependencies": {},
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.1",
