@@ -4,12 +4,12 @@
   "description": "JavaScript exercises for higher-order functions",
   "main": "index.js",
   "devDependencies": {
-    "eslint": "^7.12.1",
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.20.2",
+    "eslint": "^8.15.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.1",
-    "jsdoc": "^3.6.7"
+    "eslint-plugin-promise": "^6.0.0",
+    "jsdoc": "^3.6.10"
   },
   "scripts": {
     "docs": "npx jsdoc -c ./.jsdoc.conf.json",
